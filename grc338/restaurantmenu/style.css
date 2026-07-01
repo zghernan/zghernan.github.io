@@ -17,7 +17,7 @@ h1 {
 	background-color: #a8a8b3;
 	color: #f7f7f7; /* Same as body background. */
 	font-size: 3em;
-	padding: 1em 1em .5em; /* You want three values. */
+	padding: 1em .5em .5em; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -27,7 +27,7 @@ h2 {
 	background-color: #a8a8b3;
 	color: #ffffff;
 	font-size: 2em;
-	padding: 0 1em 1em;
+	padding: 0 .5em 1em;
 	font-family: serif;
 	font-weight: bold;
 }
