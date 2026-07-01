@@ -10,7 +10,7 @@ body {
 	background-color: #f7f7f7; /* Not totally white. */
 	color: #3a3a3a;  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-	font-family: sans-serif;
+	font-family: serif;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h2 {
 	color: #ffffff;
 	font-size: 2em;
 	padding: 0 1em 1em;
-	font-family: sans-serif;
+	font-family: serif;
 	font-weight: bold;
 }
 
