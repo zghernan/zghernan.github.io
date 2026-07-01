@@ -1,0 +1,65 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background-color: #f7f7f7; /* Not totally white. */
+	color: #3a3a3a;  /* Not totally black. */
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: #a8a8b3;
+	color: #f7f7f7; /* Same as body background. */
+	font-size: 3em;
+	padding: 1em 1em .5em; /* You want three values. */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	background-color: #a8a8b3;
+	color: #ffffff;
+	font-size: 2em;
+	padding: 0 1em 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 2em 1em 1em; /*Three values again. You got the idea.*/
+	padding-top: .5em;
+	font-size: 1.5em;
+	color: #b13a2e;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: 3px solid #b13a2e;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: #b13a2e;
+}
+
+ul {
+	margin: 0 1em 2em;
+}
+
+li { 
+	margin: 1.5em 0;
+	list-style-type: none;
+}
