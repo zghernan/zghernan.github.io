@@ -91,10 +91,11 @@ footer p{
     color: white;
 }
 
-.container{
-    max-width: 700px;
-    margin: 0 auto;
-    background-color:white;
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 2rem auto;
+    background-color: white;
     border-radius: 0 0 20px 20px;
     overflow: hidden;
 }
