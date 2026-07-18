@@ -31,7 +31,7 @@ img {
 
 header {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: auto 1fr;
 	background: #d9d9d9;
 	padding: 1rem;
 	}
@@ -159,9 +159,8 @@ div.home-container {
 	margin: 0 auto;
 }
 	nav ul {
-		display: flex;
-		justify-content: flex-end;
-		gap: 1rem;
+		display: inline;
+		margin-left: 1rem;
 	}
 
 	main.menu ul {
