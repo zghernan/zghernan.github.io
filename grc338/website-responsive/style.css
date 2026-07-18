@@ -136,3 +136,35 @@ address {
 footer p {
 	margin: 0;
 }
+
+
+body {
+	font-family:sans-serif;
+}
+
+article {
+	background-color: #add8e6;
+	padding: 1rem;
+}
+nav ul li.selected a {
+	background-color: #ff8c00;
+}
+
+@media screen and (min-width: 60em) {
+div.container,
+div.home-container {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
+	}
+
+	main.menu ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr; 
+		column-gap: 2rem;
+	}
+}
